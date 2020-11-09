@@ -99,7 +99,7 @@ public class Notifications extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel2.setText("Welcome");
         jLabel2.setOpaque(true);
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, -1, 39));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 20, 120, 39));
 
         jLabel3.setFont(new java.awt.Font("Comic Sans MS", 0, 36)); // NOI18N
         jLabel3.setText("The following Items need your attention");

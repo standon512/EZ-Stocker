@@ -320,7 +320,7 @@ public class EditAccount extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         String userid=jLabel1.getText();
-        new home().setVisible(true);
+        new Home(userid).setVisible(true);
         this.dispose();// TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 

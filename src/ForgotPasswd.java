@@ -375,7 +375,7 @@ public class ForgotPasswd extends javax.swing.JFrame {
             String query="UPDATE USER SET PASSWD='"+hexpsswd+"' WHERE EMAIL='"+email+"';";
             stmt.executeUpdate(query);
             JOptionPane.showMessageDialog(this,"Password Succesfully changed");
-            new login().setVisible(true);
+            new Login().setVisible(true);
             
         }
         catch(Exception e)
@@ -392,7 +392,7 @@ public class ForgotPasswd extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-new login().setVisible(true);
+new Login().setVisible(true);
 this.dispose();// TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
 

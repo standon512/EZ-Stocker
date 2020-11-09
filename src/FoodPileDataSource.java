@@ -10,7 +10,7 @@
  */
 public final class FoodPileDataSource {
     private FoodPileDataSource() { }  // Prevents instantiation
-    public static final String connect = "jdbc:mysql://localhost:3306/foodpile?verifyServerCertificate=false&useSSL=true";
+    public static final String connect = "jdbc:mysql://192.168.1.27:3306/foodpile?verifyServerCertificate=false&useSSL=true";
     public static final String userid = "root";
     public static final String passwd = "shreyas"; 
     
