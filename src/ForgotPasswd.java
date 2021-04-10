@@ -259,7 +259,7 @@ public class ForgotPasswd extends javax.swing.JFrame {
         jPasswordField2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         getContentPane().add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 590, 290, 40));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.jpg"))); // NOI18N
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 760, 790));
 
         pack();

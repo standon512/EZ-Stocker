@@ -150,10 +150,10 @@ public class Add_New extends javax.swing.JFrame {
         jTextField7.setOpaque(false);
         getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, 122, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logo.png"))); // NOI18N
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 250, 110));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.jpg"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 780));
 
         pack();

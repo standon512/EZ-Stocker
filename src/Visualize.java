@@ -161,7 +161,7 @@ public class Visualize extends javax.swing.JFrame {
         jSpinner1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 480, 110, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logo.png"))); // NOI18N
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 270, 120));
 
         jLabel11.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
@@ -178,7 +178,7 @@ public class Visualize extends javax.swing.JFrame {
         });
         getContentPane().add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 530, 350, -1));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.jpg"))); // NOI18N
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 700));
 
         pack();

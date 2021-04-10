@@ -232,7 +232,7 @@ public class EditAccount extends javax.swing.JFrame {
         jLabel10.setOpaque(true);
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 20, 120, 32));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logo.png"))); // NOI18N
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, 240, 110));
 
         jLabel13.setBackground(new java.awt.Color(255, 255, 255));
@@ -244,7 +244,7 @@ public class EditAccount extends javax.swing.JFrame {
         jLabel13.setOpaque(true);
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 620, 25, 20));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.jpg"))); // NOI18N
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 820, 940));
 
         pack();

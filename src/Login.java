@@ -108,7 +108,7 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 170, 40, 40));
 
         jButton1.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login-button_1599084.jpg"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login-button.jpg"))); // NOI18N
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,7 +141,7 @@ public class Login extends javax.swing.JFrame {
         });
         jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 170, 310, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Shreyas\\Downloads\\screenshot__193_-removebg-prev.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logo.png"))); // NOI18N
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 260, 130));
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/clean.jpg"))); // NOI18N
@@ -165,7 +165,7 @@ public class Login extends javax.swing.JFrame {
         });
         jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 290, 180, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.jpg"))); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(100, 100));
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -60, 1070, 690));
 

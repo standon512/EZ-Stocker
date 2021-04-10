@@ -167,10 +167,10 @@ public class Remove extends javax.swing.JFrame {
         jLabel9.setOpaque(true);
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 20, 110, 33));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logo.png"))); // NOI18N
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 250, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.jpg"))); // NOI18N
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 760));
 
         pack();

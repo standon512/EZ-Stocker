@@ -285,7 +285,7 @@
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/screenshot__193_-removebg-prev.png"/>
+          <Image iconType="3" name="/logo.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -297,7 +297,7 @@
     <Component class="javax.swing.JLabel" name="jLabel10">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/white-blue-water-gradient-background-vector-10507865.jpg"/>
+          <Image iconType="3" name="/background.jpg"/>
         </Property>
       </Properties>
       <Constraints>
