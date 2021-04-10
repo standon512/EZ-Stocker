@@ -35,8 +35,10 @@ public class Login extends javax.swing.JFrame {
      */
     public Login() {
         initComponents();
-        this.setResizable(false);
+      //  this.setResizable(false);
         this.setLocationRelativeTo(null);
+       
+        
     }
 
     /**
@@ -76,7 +78,7 @@ public class Login extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 850, 400, 50));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 490, 400, 50));
 
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/eye.png"))); // NOI18N
         jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -93,7 +95,7 @@ public class Login extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 450, 20, 20));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 250, 20, 20));
 
         jButton2.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/clean.jpg"))); // NOI18N
@@ -103,7 +105,7 @@ public class Login extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 370, 40, 40));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 170, 40, 40));
 
         jButton1.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login-button_1599084.jpg"))); // NOI18N
@@ -113,15 +115,15 @@ public class Login extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 580, 220, 60));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 360, 220, 60));
 
         jLabel2.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jLabel2.setText("Enter Password");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 440, 200, 52));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 240, 200, 52));
 
         jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jLabel1.setText("Enter User ID");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 360, 179, 57));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, 179, 57));
 
         jPasswordField1.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
@@ -129,7 +131,7 @@ public class Login extends javax.swing.JFrame {
                 jPasswordField1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 440, 310, -1));
+        jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 240, 310, -1));
 
         jTextField1.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -137,10 +139,10 @@ public class Login extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 370, 310, -1));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 170, 310, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodpileLogo(LLR8gx1B6G6).png"))); // NOI18N
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 210, 340, 110));
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Shreyas\\Downloads\\screenshot__193_-removebg-prev.png")); // NOI18N
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 260, 130));
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/clean.jpg"))); // NOI18N
         jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -149,7 +151,7 @@ public class Login extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 440, 40, 40));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 240, 40, 40));
 
         jButton6.setBackground(new java.awt.Color(255, 255, 255));
         jButton6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -161,11 +163,11 @@ public class Login extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 490, 180, -1));
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 290, 180, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/54088843-healthy-food-background-studio-photo-of-different-fruits-on-white-wooden-table-high-resolution-produ.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(100, 100));
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 940));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -60, 1070, 690));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
