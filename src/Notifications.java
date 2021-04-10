@@ -40,7 +40,7 @@ public class Notifications extends javax.swing.JFrame {
                 model.setRowCount(0);
                 Class.forName("java.sql.DriverManager");
                 java.sql.Connection con=(java.sql.Connection)DriverManager.getConnection
-                (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+                (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
                 java.sql.Statement stmt=(java.sql.Statement)con.createStatement();
                 String query1="SELECT itemcode,name,category,brand,quantity,threshold,price,threshold-quantity as difference"
                 + " FROM ITEM WHERE userid='"+userid+"' and quantity<threshold;";
@@ -139,7 +139,7 @@ public class Notifications extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 250, 40, 30));
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, 120, 80));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/54088843-healthy-food-background-studio-photo-of-different-fruits-on-white-wooden-table-high-resolution-produ.jpg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1050, 680));
 
         pack();
@@ -155,7 +155,7 @@ public class Notifications extends javax.swing.JFrame {
             model.setRowCount(0);
             Class.forName("java.sql.DriverManager");
             java.sql.Connection con=(java.sql.Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             java.sql.Statement stmt=(java.sql.Statement)con.createStatement();
             String query1="SELECT itemcode,name,category,brand,quantity,threshold,price,threshold-quantity as difference"
             + " FROM ITEM WHERE userid='"+userid+"' and quantity<threshold;";

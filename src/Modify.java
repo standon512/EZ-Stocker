@@ -71,42 +71,42 @@ public class Modify extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
         jLabel1.setText("Edit Product Details");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 150, 440, 45));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 150, 440, 45));
 
         jLabel2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel2.setText("Enter product ID");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, -1, 31));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, -1, 31));
 
         jTextField1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 240, 154, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 240, 154, -1));
 
         jLabel3.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel3.setText("Product name");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 420, 180, 29));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 420, 180, 29));
 
         jLabel4.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel4.setText("Product Brand");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 470, 180, 30));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 470, 180, 30));
 
         jLabel5.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel5.setText("Product category");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 510, 200, 40));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 510, 200, 40));
 
         jLabel6.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel6.setText("Threshold Value");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 570, 210, 37));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 570, 210, 37));
 
         jLabel7.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel7.setText("Price");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 620, 123, 31));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 620, 123, 31));
 
         jTextField2.setEditable(false);
         jTextField2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 420, 220, -1));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 420, 220, -1));
 
         jTextField3.setEditable(false);
         jTextField3.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 470, 220, -1));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 470, 220, -1));
 
         jTextField4.setEditable(false);
         jTextField4.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
@@ -115,7 +115,7 @@ public class Modify extends javax.swing.JFrame {
                 jTextField4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 520, 220, -1));
+        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 520, 220, -1));
 
         jTextField5.setEditable(false);
         jTextField5.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
@@ -124,11 +124,11 @@ public class Modify extends javax.swing.JFrame {
                 jTextField5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 570, 220, -1));
+        getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 570, 220, -1));
 
         jTextField6.setEditable(false);
         jTextField6.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 620, 220, -1));
+        getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 620, 220, -1));
 
         jButton1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton1.setText("Edit");
@@ -138,7 +138,7 @@ public class Modify extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 420, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 420, -1, -1));
 
         jButton2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton2.setText("Edit");
@@ -148,7 +148,7 @@ public class Modify extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 520, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 520, -1, -1));
 
         jButton3.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton3.setText("Edit");
@@ -158,7 +158,7 @@ public class Modify extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 470, -1, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 470, -1, -1));
 
         jButton4.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton4.setText("Edit");
@@ -168,7 +168,7 @@ public class Modify extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 570, -1, -1));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 570, -1, -1));
 
         jButton5.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton5.setText("Edit");
@@ -178,7 +178,7 @@ public class Modify extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 620, -1, -1));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 620, -1, -1));
 
         jButton6.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton6.setText("Show Details");
@@ -188,11 +188,11 @@ public class Modify extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 320, 220, 38));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 320, 220, 38));
 
         jLabel8.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel8.setOpaque(true);
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 30, 170, 30));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 20, 170, 30));
 
         jButton7.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton7.setText("Modify");
@@ -202,7 +202,7 @@ public class Modify extends javax.swing.JFrame {
                 jButton7ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 690, 170, 38));
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 690, 170, 38));
 
         jButton8.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/back.jpg"))); // NOI18N
@@ -212,19 +212,19 @@ public class Modify extends javax.swing.JFrame {
                 jButton8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 750, 90, -1));
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 720, 90, -1));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodpileLogo.png"))); // NOI18N
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 740, 200, 60));
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 250, 120));
 
         jLabel10.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel10.setText(" Welcome   ");
         jLabel10.setOpaque(true);
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 30, 130, 30));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 20, 130, 30));
 
         jLabel9.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -20, 1250, 830));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -20, 1250, 820));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -292,7 +292,7 @@ jTextField6.setEditable(true);         // TODO add your handling code here:
     {
         Class.forName("java.sql.DriverManager");
         Connection con=(Connection)DriverManager.getConnection
-        (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+        (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
         Statement stmt=(Statement)con.createStatement();
         String query="UPDATE item set name='"+name+"',brand='"+brand+"',category='"+category+"',threshold='"+threshold+"',price='"+price+"' where itemcode='"+icode+"'and userid='"+userid+"';";
         stmt.executeUpdate(query);    

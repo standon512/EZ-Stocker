@@ -167,10 +167,10 @@ public class Remove extends javax.swing.JFrame {
         jLabel9.setOpaque(true);
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 20, 110, 33));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodpileLogo.png"))); // NOI18N
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 690, 220, 60));
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 250, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/54088843-healthy-food-background-studio-photo-of-different-fruits-on-white-wooden-table-high-resolution-produ.jpg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 760));
 
         pack();
@@ -199,7 +199,7 @@ public class Remove extends javax.swing.JFrame {
             {
                 Class.forName("java.sql.DriverManager");
                 Connection con=(Connection)DriverManager.getConnection
-                (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+                (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
                 Statement stmt=(Statement)con.createStatement();
                 String query="Delete from item where itemcode='"+icode+"' and userid='"+userid+"';";
                 stmt.executeUpdate(query);

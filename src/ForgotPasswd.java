@@ -281,7 +281,7 @@ public class ForgotPasswd extends javax.swing.JFrame {
         {
             Class.forName("java.sql.DriverManager");      
             Connection con = (Connection)   
-            DriverManager.getConnection (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);     
+            DriverManager.getConnection (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);     
             Statement stmt = (Statement) con.createStatement();      
             String query="SELECT userid, passwd FROM user WHERE  email='"+email+"';";      
             ResultSet rs=stmt.executeQuery(query);  
@@ -370,7 +370,7 @@ public class ForgotPasswd extends javax.swing.JFrame {
             }
             String hexpsswd=sb.toString();
             Class.forName("java.sql.DriverManager");      
-            Connection con = (Connection)DriverManager.getConnection (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);     
+            Connection con = (Connection)DriverManager.getConnection (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);     
             Statement stmt = (Statement) con.createStatement();
             String query="UPDATE USER SET PASSWD='"+hexpsswd+"' WHERE EMAIL='"+email+"';";
             stmt.executeUpdate(query);

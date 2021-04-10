@@ -187,7 +187,7 @@ public class Add_New extends javax.swing.JFrame {
         java.sql.Date sqlDate=new java.sql.Date(date.getTime());
         Class.forName("java.sql.DriverManager");
         Connection con=(Connection)DriverManager.getConnection
-        ( FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+        ( EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
         Statement stmt=(Statement)con.createStatement();
         String query="INSERT INTO item(itemcode,name,category,brand,quantity,threshold,price,userid)"
             + " VALUES('"+pcode+"','"+pname+"','"+category+"','"+brand+"',0,'"+threshold+"','"+price+"','"+user+"');";

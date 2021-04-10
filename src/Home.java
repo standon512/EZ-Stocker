@@ -35,7 +35,7 @@ public class Home extends javax.swing.JFrame {
             String mssgcount="0";
             Class.forName("java.sql.DriverManager");
             java.sql.Connection con=(java.sql.Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             java.sql.Statement stmt=(java.sql.Statement)con.createStatement();
             String query="SELECT COUNT(ITEMCODE) AS COUNT FROM ITEM WHERE Quantity<THRESHOLD AND USERID='"+userid+"';";
             ResultSet rs=stmt.executeQuery(query);
@@ -441,7 +441,7 @@ public class Home extends javax.swing.JFrame {
             model.setRowCount(0);
             Class.forName("java.sql.DriverManager");
             java.sql.Connection con=(java.sql.Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             java.sql.Statement stmt=(java.sql.Statement)con.createStatement();
             String query1="SELECT itemcode,name,category,brand,quantity,threshold,price FROM ITEM WHERE NAME LIKE '%"+text+"%' "
                     + " and userid='"+userid+"' and category = ifnull("+category+",category) and brand like '"+brandtext+"%'"

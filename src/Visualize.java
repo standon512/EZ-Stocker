@@ -82,7 +82,7 @@ public class Visualize extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel1.setOpaque(true);
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 20, 151, 32));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 20, 151, 32));
 
         jButton1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/back.jpg"))); // NOI18N
@@ -92,18 +92,18 @@ public class Visualize extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 610, 100, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 610, 100, -1));
 
         jXDatePicker1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        getContentPane().add(jXDatePicker1, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 260, 210, 37));
+        getContentPane().add(jXDatePicker1, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 260, 210, 37));
 
         jLabel2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel2.setText("From");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 260, 83, 28));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 260, 83, 28));
 
         jLabel3.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel3.setText("To");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 310, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 310, -1, -1));
 
         jXDatePicker2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jXDatePicker2.addActionListener(new java.awt.event.ActionListener() {
@@ -111,7 +111,7 @@ public class Visualize extends javax.swing.JFrame {
                 jXDatePicker2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jXDatePicker2, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 310, 210, 34));
+        getContentPane().add(jXDatePicker2, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 310, 210, 34));
 
         jLabel4.setFont(new java.awt.Font("Comic Sans MS", 3, 30)); // NOI18N
         jLabel4.setText("Graphical Representation of Data");
@@ -121,7 +121,7 @@ public class Visualize extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel5.setText("Welcome");
         jLabel5.setOpaque(true);
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 20, 120, 32));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 20, 120, 32));
 
         jLabel6.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel6.setText("Current Inventory Visualization");
@@ -129,7 +129,7 @@ public class Visualize extends javax.swing.JFrame {
 
         jLabel7.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel7.setText("Transaction Visualization");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 200, 288, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 200, 288, -1));
 
         jComboBox1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-Select Any-", "Items per category", "Items per brand" }));
@@ -149,7 +149,7 @@ public class Visualize extends javax.swing.JFrame {
                 jComboBox2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 370, 360, -1));
+        getContentPane().add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 370, 360, -1));
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1009, 566, 169, -1));
 
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
@@ -159,10 +159,10 @@ public class Visualize extends javax.swing.JFrame {
 
         jSpinner1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jSpinner1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 480, 110, -1));
+        getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 480, 110, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodpileLogo.png"))); // NOI18N
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 610, 200, 50));
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 270, 120));
 
         jLabel11.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel11.setText("Select Year");
@@ -176,10 +176,10 @@ public class Visualize extends javax.swing.JFrame {
                 jComboBox3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 530, 350, -1));
+        getContentPane().add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 530, 350, -1));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/54088843-healthy-food-background-studio-photo-of-different-fruits-on-white-wooden-table-high-resolution-produ.jpg"))); // NOI18N
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 670));
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 700));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -201,7 +201,7 @@ public class Visualize extends javax.swing.JFrame {
         {
             Class.forName("java.sql.DriverManager");
             Connection con=(Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             Statement stmt=(Statement)con.createStatement();
             String query="SELECT count(itemcode) as count,category FROM ITEM WHERE USERID='"+userid+"' group by category;";
             ResultSet rs=stmt.executeQuery(query);
@@ -233,7 +233,7 @@ public class Visualize extends javax.swing.JFrame {
         {
             Class.forName("java.sql.DriverManager");
             Connection con=(Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             Statement stmt=(Statement)con.createStatement();
             String query="SELECT count(itemcode) as count,brand FROM ITEM WHERE USERID='"+userid+"' group by brand;";
             ResultSet rs=stmt.executeQuery(query);
@@ -276,7 +276,7 @@ public class Visualize extends javax.swing.JFrame {
             else todate=format.format(new Date());
             Class.forName("java.sql.DriverManager");
             Connection con=(Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             Statement stmt=(Statement)con.createStatement();
             String query="SELECT sum(purchase.quantity) as count,name FROM ITEM,PURCHASE WHERE ITEM.ITEMCODE = PURCHASE.ITEMCODE AND "
                     + "ITEM.USERID='"+userid+"' and PDate<='"+todate+"' and PDate>='"+fromdate+"' group by ITEM.NAME;";       
@@ -316,7 +316,7 @@ public class Visualize extends javax.swing.JFrame {
             else todate=format.format(new Date()); 
             Class.forName("java.sql.DriverManager");
             Connection con=(Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             Statement stmt=(Statement)con.createStatement();
             String query="SELECT sum(SELL.quantity) as count,name FROM ITEM,SELL WHERE ITEM.ITEMCODE = SELL.ITEMCODE AND "
                     + "ITEM.USERID='"+userid+"' and SDate<='"+todate+"' and SDate>='"+fromdate+"' group by ITEM.NAME;";       
@@ -358,7 +358,7 @@ public class Visualize extends javax.swing.JFrame {
             int year=(int) jSpinner1.getValue();
             Class.forName("java.sql.DriverManager");
             Connection con=(Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             Statement stmt=(Statement)con.createStatement();
             String query="SELECT 'January' AS mName, COALESCE(SUM(cprice),0) AS Total_cost FROM purchase p WHERE month(p.pdate) = 1 AND YEAR(p.pdate)="+year+" and userid='"+userid+"' UNION\n" +
                     "SELECT 'February' AS mName, COALESCE(SUM(cprice),0) AS Total_cost FROM purchase p WHERE month(p.pdate) = 2 AND YEAR(p.pdate)="+year+" and userid='"+userid+"' UNION\n" +
@@ -401,7 +401,7 @@ public class Visualize extends javax.swing.JFrame {
             int year=(int) jSpinner1.getValue();
             Class.forName("java.sql.DriverManager");
             Connection con=(Connection)DriverManager.getConnection
-            (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             Statement stmt=(Statement)con.createStatement();
             String query="SELECT 'January' AS mName, COALESCE(SUM(sprice),0) AS Total_sale FROM sell p WHERE month(p.sdate) = 1 AND YEAR(p.sdate)="+year+" and userid='"+userid+"' UNION\n" +
                     "SELECT 'February' AS mName, COALESCE(SUM(sprice),0) AS Total_sale FROM sell p WHERE month(p.sdate) = 2 AND YEAR(p.sdate)="+year+" and userid='"+userid+"' UNION\n" +

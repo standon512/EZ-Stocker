@@ -102,7 +102,7 @@ public class Sell extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 750, 100, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 710, 100, -1));
 
         jTextField2.setEditable(false);
         jTextField2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
@@ -153,11 +153,11 @@ public class Sell extends javax.swing.JFrame {
         jLabel9.setOpaque(true);
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 20, 120, 32));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodpileLogo.png"))); // NOI18N
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 740, 200, 70));
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 260, 140));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/54088843-healthy-food-background-studio-photo-of-different-fruits-on-white-wooden-table-high-resolution-produ.jpg"))); // NOI18N
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 820));
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 690, 820));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -173,7 +173,7 @@ public class Sell extends javax.swing.JFrame {
             {
                 Class.forName("java.sql.DriverManager");
                 Connection con=(Connection)DriverManager.getConnection
-                ( FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+                ( EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
                 Statement stmt=(Statement)con.createStatement();
                 String query="SELECT name,brand from item where itemcode='"+icode+"' and userid='"+userid+"';";
                 ResultSet rs=stmt.executeQuery(query);
@@ -209,7 +209,7 @@ public class Sell extends javax.swing.JFrame {
                 java.sql.Date sqlDate=new java.sql.Date(date.getTime());
                 Class.forName("java.sql.DriverManager");
                 Connection con=(Connection)DriverManager.getConnection
-                (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+                (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
                 Statement stmt=(Statement)con.createStatement();
                 String q1="SELECT THRESHOLD FROM ITEM WHERE ITEMCODE='"+icode+"' and userid='"+userid+"';";
                 ResultSet rs1=stmt.executeQuery(q1);

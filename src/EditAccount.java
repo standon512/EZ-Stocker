@@ -34,7 +34,7 @@ public class EditAccount extends javax.swing.JFrame {
         {
             Class.forName("java.sql.DriverManager");      
             Connection con = (Connection)   
-            DriverManager.getConnection (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);     
+            DriverManager.getConnection (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);     
             Statement stmt = (Statement) con.createStatement();      
             String query="SELECT name,mobile,email FROM user WHERE userid='"+userid+"';";      
             ResultSet rs=stmt.executeQuery(query);    
@@ -277,7 +277,7 @@ public class EditAccount extends javax.swing.JFrame {
                 //System.out.println("Hex format : " + sb.toString());
                 Class.forName("java.sql.DriverManager");
                 Connection con = (Connection)
-                DriverManager.getConnection (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+                DriverManager.getConnection (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
                 Statement stmt = (Statement) con.createStatement();
                 String query="SELECT passwd FROM user WHERE userid='"+userid+"';";
                 ResultSet rs=stmt.executeQuery(query);
@@ -332,7 +332,7 @@ public class EditAccount extends javax.swing.JFrame {
         try{
             Class.forName("java.sql.DriverManager");
             Connection con = (Connection)
-            DriverManager.getConnection (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);
+            DriverManager.getConnection (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);
             Statement stmt = (Statement) con.createStatement();
             String query="UPDATE USER SET NAME='"+newname+"',MOBILE='"+newmobile+"',EMAIL='"+newemail+"' WHERE "
             + "USERID='"+userid+"';";

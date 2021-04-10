@@ -217,7 +217,7 @@ new Register().setVisible(true);
                     //System.out.println("Hex format : " + sb.toString());       
                 Class.forName("java.sql.DriverManager");      
                 Connection con = (Connection)   
-                DriverManager.getConnection (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);     
+                DriverManager.getConnection (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);     
                 Statement stmt = (Statement) con.createStatement();      
                 String query="SELECT userid, passwd FROM user WHERE userid='"+userid+"';";      
                 ResultSet rs=stmt.executeQuery(query);    

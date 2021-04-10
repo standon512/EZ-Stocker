@@ -194,10 +194,10 @@ public class Register extends javax.swing.JFrame {
         });
         getContentPane().add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 430, 200, 40));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodpileLogo.png"))); // NOI18N
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 670, 200, 50));
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 270, 110));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/54088843-healthy-food-background-studio-photo-of-different-fruits-on-white-wooden-table-high-resolution-produ.jpg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 640, 740));
 
         pack();
@@ -249,7 +249,7 @@ public class Register extends javax.swing.JFrame {
             }
             String hexpsswd=sb.toString();
             Class.forName("java.sql.DriverManager");      
-            Connection con = (Connection)DriverManager.getConnection (FoodPileDataSource.connect,FoodPileDataSource.userid,FoodPileDataSource.passwd);     
+            Connection con = (Connection)DriverManager.getConnection (EZStockerDataSource.connect,EZStockerDataSource.userid,EZStockerDataSource.passwd);     
             Statement stmt = (Statement) con.createStatement();
             String query="INSERT INTO user VALUES('"+userid+"','"+name+"','"+hexpsswd+"','"+mobile+"','"+email+"');";
             stmt.executeUpdate(query);
