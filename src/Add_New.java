@@ -67,7 +67,7 @@ public class Add_New extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 30)); // NOI18N
         jLabel1.setText("Add new product");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 120, 260, 51));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 140, 260, 51));
 
         jLabel2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel2.setText("Product name");
@@ -83,10 +83,10 @@ public class Add_New extends javax.swing.JFrame {
 
         jLabel5.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel5.setText("Product code");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, -1, -1));
 
         jTextField1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 260, 216, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, 216, -1));
 
         jTextField2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 310, 216, -1));
@@ -150,10 +150,10 @@ public class Add_New extends javax.swing.JFrame {
         jTextField7.setOpaque(false);
         getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, 122, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodpileLogo.png"))); // NOI18N
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 700, 250, 70));
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 250, 110));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/54088843-healthy-food-background-studio-photo-of-different-fruits-on-white-wooden-table-high-resolution-produ.jpg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 780));
 
         pack();

@@ -202,7 +202,7 @@ public class EditAccount extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 770, 90, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 710, 90, -1));
 
         jLabel7.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel7.setText("New Passowrd");
@@ -210,7 +210,7 @@ public class EditAccount extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel9.setText("--------------------------Change password-------------------------");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 480, -1, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 450, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
         jLabel8.setText("Re-enter new Password");
@@ -232,8 +232,8 @@ public class EditAccount extends javax.swing.JFrame {
         jLabel10.setOpaque(true);
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 20, 120, 32));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FoodpileLogo.png"))); // NOI18N
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 770, 210, 60));
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenshot__193_-removebg-prev.png"))); // NOI18N
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, 240, 110));
 
         jLabel13.setBackground(new java.awt.Color(255, 255, 255));
         jLabel13.setFont(new java.awt.Font("Comic Sans MS", 3, 14)); // NOI18N
@@ -244,8 +244,8 @@ public class EditAccount extends javax.swing.JFrame {
         jLabel13.setOpaque(true);
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 620, 25, 20));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/54088843-healthy-food-background-studio-photo-of-different-fruits-on-white-wooden-table-high-resolution-produ.jpg"))); // NOI18N
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 830, 940));
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/white-blue-water-gradient-background-vector-10507865.jpg"))); // NOI18N
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 820, 940));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
