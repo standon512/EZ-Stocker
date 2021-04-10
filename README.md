@@ -29,7 +29,7 @@ Team Name: Sick Mundus
 
 * [Shreyas Tandon](https://github.com/standon512)
 * [Nikhil Gaur](https://github.com/)
-* [Raj Daftari](https://github.com/rajdaftari)
+* [Raj Daftari](https://github.com/)
 * [Himanshu Goyal](https://github.com/)
 
 
